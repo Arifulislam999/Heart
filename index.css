@@ -1,0 +1,82 @@
+.contain {
+    position: relative;
+}
+
+.box1,
+.box2,
+.box3 {
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    box-shadow: 0px 0px 505px red;
+    text-shadow: 0px 0px 30px red;
+}
+
+.box1,
+.box2 {
+    border-radius: 50%;
+}
+
+.box2 {
+    position: absolute;
+    left: 110px;
+    top: 0px;
+}
+
+.box3 {
+    transform: rotate(45deg);
+    position: absolute;
+    left: 54px;
+    top: 55px;
+    border-radius: 10% 10% 0% 10%;
+}
+
+.stick {
+    height: 340px;
+    width: 1px;
+    background-color: black;
+    position: absolute;
+    transform: rotate(-50deg);
+    left: 135px;
+    top: -45px;
+}
+
+.pin1 {
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background-color: red;
+    transform: rotate(-75deg);
+    left: 255px;
+    top: 222px;
+}
+
+.pin2 {
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background-color: red;
+    transform: rotate(-26deg);
+    left: 261px;
+    top: 215px;
+}
+
+.pin3 {
+    height: 15px;
+    width: 2px;
+    background-color: red;
+    position: absolute;
+    transform: rotate(-70deg);
+    top: 8px;
+}
+
+.pin4 {
+    height: 15px;
+    width: 2px;
+    background-color: red;
+    position: absolute;
+    transform: rotate(-12deg);
+    top: 2px;
+    left: 5px;
+}
